@@ -1,6 +1,6 @@
 # Node App
 
-This repo will allow you to set up Virtual Machines, that will allow you to run an app, connected to a database. If the app runs you will be able to view it on your internet browser with the address ``development.local:3000``
+This repo will allow you to set up Virtual Machines, that will allow you to run an app, connected to a database. If the app runs you will be able to view it on your internet browser with the address ``development.local``
 
 ## Dependencies
 
@@ -37,8 +37,8 @@ $ npm install
 
 $ npm start
 ```
-Use `npm test` to check if all ``development.local:3000`` pages will work. if posts fails, that means the database is not connected correctly.
+Use `npm test` to check if all ``development.local`` pages will work. if posts fails, that means the database is not connected correctly.
 
-You should then be able to access ``development.local:3000`` to see the homepage.
+You should then be able to access ``development.local`` to see the homepage.
 
-You can also access pages ``development.local:3000/posts`` and ``development.local:3000/fibonacci/{index}``, where {index} can be any number and will return you a value within the fibonacci sequence.
+You can also access pages ``development.local/posts`` and ``development.local/fibonacci/{index}``, where {index} can be any number and will return you a value within the fibonacci sequence.
